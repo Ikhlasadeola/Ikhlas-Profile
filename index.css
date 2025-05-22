@@ -28,6 +28,11 @@ nav a {
     font-size: 1rem;
     margin-right: 70px;
 }
+nav a:hover {
+    cursor: pointer;
+    background-color: #EFF6FF;
+    padding: 10px;
+}
 .home{
     background-color: #EFF6FF;
     padding: 10px 30px;
@@ -52,6 +57,7 @@ nav a {
 }
 .expo{
     background-color: white;
+    height: 400px;
     max-width: 400px;
     color: black;
     margin: 20px 0px 40px 0px;
