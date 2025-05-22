@@ -137,7 +137,7 @@ footer{
     margin-bottom: -5px;
     width: 20px;
 }
-.handles{
+#handles{
     display: flex;
     max-width: 1440px;
     margin: auto;
@@ -172,12 +172,12 @@ footer{
         font-size: 1.5rem;
         text-align: center;
     }
-    .me,  .section, .handles, .Experiences{
+    .me,  .section, #handles, .Experiences{
         flex-direction: column;
     }
     .pic{
         width: 250px;
-    }.handles{
+    }#handles{
         padding: 5px;
     }
     .expo, .dev{
@@ -196,7 +196,7 @@ footer{
     nav a{
         margin-right: 20px;
     }
-    .Experiences, .handles{
+    .Experiences, #handles{
         flex-direction: column;
     }
 }
