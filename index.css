@@ -44,7 +44,7 @@ nav a:hover {
 .experience{
     background-color: #162456;
     color: white;
-    padding: 20px 64px;
+    padding: 20px 64px; 
 }
 .work{
     font-size: 2rem;
@@ -76,6 +76,9 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    padding-top: 30px;
 }
 .speaker{
     width: 207px;
@@ -199,4 +202,8 @@ footer{
     .Experiences, #handles{
         flex-direction: column;
     }
+}
+#handles a{
+    text-decoration: none;
+    color: black;
 }
